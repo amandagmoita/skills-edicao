@@ -1,0 +1,54 @@
+{
+  "fonte": "meu-video.mov",
+  "tomadas": [[0.10, 4.14, "GANCHO"], [4.24, 8.66, "1"], [8.72, 15.66, "2"], [15.70, 20.52, "3"],
+              [20.56, 26.78, "4"], [26.84, 31.14, "5"], [31.22, 39.44, "6"], [39.60, 47.26, "7"],
+              [47.36, 54.14, "8"], [54.20, 59.00, "9"], [59.06, 65.70, "10"]],
+  "imagens": [
+    {"nome": "informacao", "estilo": "ilustrativa", "fundo": "pale light gray",
+     "descricao": "dozens of identical white smartphones floating in a neat grid, every screen showing the same plain gray article layout"},
+    {"nome": "ponto_de_vista", "estilo": "ilustrativa", "fundo": "bright sky blue",
+     "descricao": "a crowd of identical white chess pawns seen from a slight high angle, with one single glossy bright yellow pawn standing out in the middle"},
+    {"nome": "nao_basta", "estilo": "reacao",
+     "descricao": "an overconfident salesman in a cheap shiny suit giving a big thumbs up and a wink, as if saying 'trust me, it works'"},
+    {"nome": "educacao", "estilo": "ilustrativa", "fundo": "warm sunflower yellow",
+     "descricao": "a glossy red megaphone wearing a small black graduation cap with a tassel"},
+    {"nome": "escutar", "estilo": "reacao",
+     "descricao": "a young woman leaning forward with her hand cupped behind her ear, listening very attentively with raised eyebrows"},
+    {"nome": "emocao", "estilo": "ilustrativa", "fundo": "soft pastel pink",
+     "descricao": "a glossy red heart shaped like a shopping bag, with two white rope handles on top"},
+    {"nome": "razao", "estilo": "ilustrativa", "fundo": "deep teal",
+     "descricao": "a golden balance scale perfectly balanced, a glossy red heart on the left plate and a white brain on the right plate"},
+    {"nome": "coragem", "estilo": "reacao",
+     "descricao": "two friends on a sofa, one whispering a secret into the other's ear, the listener with wide eyes and mouth open in shock"},
+    {"nome": "ninguem", "estilo": "reacao",
+     "descricao": "a bored man slumped on an office chair, yawning widely with his eyes half closed, totally uninterested"}
+  ],
+  "telao": [
+    {"tipo": "colagem", "em": 0, "ate": ["pra", 0, -0.1], "itens": [
+      {"arquivo": "../reel-anterior-1/final.mp4", "inicio": 1.0},
+      {"arquivo": "../reel-anterior-2/final.mp4", "inicio": 2.0},
+      {"arquivo": "../reel-anterior-3/final.mp4", "inicio": 1.0}]},
+    {"tipo": "imagem", "arquivo": "informacao", "em": ["informação", 1], "ate": ["seguindo", 1]},
+    {"tipo": "imagem", "arquivo": "ponto_de_vista", "em": ["seguindo", 1], "ate": ["dizer", 2]},
+    {"tipo": "imagem", "arquivo": "nao_basta", "em": ["dizer", 2], "ate": ["mostrar", 2]},
+    {"tipo": "imagem", "arquivo": "educacao", "em": ["marketing", 3], "ate": ["entender", 3]},
+    {"tipo": "imagem", "arquivo": "escutar", "em": ["escutar", 4], "ate": ["exatamente", 4]},
+    {"tipo": "imagem", "arquivo": "emocao", "em": ["compram", 5], "ate": ["razão", 5]},
+    {"tipo": "imagem", "arquivo": "razao", "em": ["razão", 5]},
+    {"tipo": "imagem", "arquivo": "coragem", "em": ["pensando", 7], "ate": ["destacar", 7]},
+    {"tipo": "imagem", "arquivo": "ninguem", "em": ["ninguém", 9], "ate": ["querem", 9]}
+  ],
+  "dividida": [
+    {"tipo": "video", "arquivo": "../broll/gravacao-de-tela.mov", "inicio": 5.8, "velocidade": 2,
+     "recorte": [1860, 300, 1450, 1160], "em": ["mostrar", 2]},
+    {"tipo": "passos", "divisao": 0.4, "em": ["gancho", 6], "itens": [
+      {"rotulo": "gancho", "em": ["gancho", 6]},
+      {"rotulo": "meio", "em": ["meio", 6], "destaque": true},
+      {"rotulo": "final"}]},
+    {"tipo": "nos", "em": ["conteúdo", 8], "ate": ["ninguém", 9], "centro": "conteúdo", "itens": [
+      {"rotulo": "atrair", "cor": "#7C9CFF", "em": ["atrair", 8]},
+      {"rotulo": "confiança", "cor": "#3DDC97", "em": ["confiança", 8]},
+      {"rotulo": "vender", "cor": "#FFB347", "em": ["ajudam", 8]}]}
+  ],
+  "cta": {"texto": "salva pra rever depois", "em": ["realizado", 10]}
+}

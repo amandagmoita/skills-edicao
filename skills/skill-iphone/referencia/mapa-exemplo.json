@@ -1,0 +1,47 @@
+{
+  "fonte": "meu-video.mov",
+  "tomadas": [[0.1, 4.16, "GANCHO"], [4.2, 6.2, "DOR"], [6.24, 9.72, "DOR"], [9.78, 12.84, "DOR"], [12.92, 15.16, "DOR"], [15.2, 17.3, "DOR"], [17.44, 22.06, "DOR"], [22.2, 26.34, "VIRADA"], [26.38, 29.88, "VIRADA"], [29.92, 34.1, "VIRADA"], [34.16, 38.18, "RESULTADO"], [38.2, 41.92, "CTA"], [41.98, 45.38, "CTA"]],
+  "cor": "#FFC700",
+
+  "claroes": [0.0, ["quando", 5, -0.15], ["mas", 7, -0.15], ["quer", 11, -0.15]],
+
+  "icones": [
+    {"em": ["tempo", 0], "itens": [
+      {"simbolo": "relogio", "em": ["tempo", 0], "cor": "#FF3EA5"},
+      {"simbolo": "repete", "em": ["várias", 0], "cor": "#2BFFC6"}]},
+    {"em": ["proposta", 3], "ate": ["projeto", 4, 0.45], "itens": [
+      {"simbolo": "proposta", "em": ["proposta", 3]},
+      {"simbolo": "programa", "em": ["programa", 3]},
+      {"simbolo": "documentos", "em": ["documentos", 4]}]}
+  ],
+
+  "iphones": [
+    {"arquivo": "../gravacao-tela.mov", "inicio": 2.0, "velocidade": 0.95,
+     "recorte": [1200, 215, 1420, 1810], "alinha": "baixo",
+     "em": ["precisa", 2], "ate": ["criar", 3, -0.12],
+     "toques": [{"caixa": [1245, 1314, 930, 90], "em": ["briefing", 2]}]},
+    {"arquivo": "../gravacao-tela.mov", "inicio": 11.5, "velocidade": 1.6,
+     "recorte": [1960, 230, 940, 1800],
+     "em": ["você", 7], "ate": ["e", 8, -0.12]},
+    {"arquivo": "../gravacao-tela-2.mov", "inicio": 10.0, "velocidade": 2.0,
+     "recorte": [1740, 230, 960, 1800],
+     "em": ["em", 9], "ate": ["o", 10, -0.12]}
+  ],
+
+  "titulos": [{"texto": "do zero", "em": ["etapa", 5, -0.1], "ate": ["procurando", 6, -0.15]}],
+
+  "glows": [
+    {"em": ["procurando", 6], "ate": ["mas", 7, -0.2], "itens": [
+      {"logo": "lupa", "em": ["procurando", 6], "cores": ["#FF3EA5", "#FFB3DA"]},
+      {"logo": "whatsapp", "em": ["conversas", 6]},
+      {"logo": "pasta", "em": ["arquivos", 6], "cores": ["#3D8BFF", "#9CC8FF"]},
+      {"logo": "nota", "em": ["anotações", 6], "cores": ["#FFC700", "#FFF1A8"]}]},
+    {"logo": "claude", "em": ["inteligência", 8], "ate": ["em", 9, -0.15]},
+    {"logo": "claude", "em": ["inteligência", 11], "ate": ["clique", 12, -0.15]}
+  ],
+
+  "linhas": [{"em": ["simples", 10]}],
+
+  "cartao": {"em": ["clique", 12], "clique": ["saiba", 12], "arroba": "seuperfil",
+             "botao": "Saiba mais", "botao_depois": "Saiba mais"}
+}

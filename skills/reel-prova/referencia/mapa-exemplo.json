@@ -1,0 +1,48 @@
+{
+  "fonte": "meu-video.mov",
+  "tomadas": [[0.1, 4.16, "GANCHO"], [4.2, 6.2, "DOR"], [6.24, 9.72, "DOR"], [9.78, 12.84, "DOR"],
+              [12.92, 15.16, "DOR"], [15.2, 17.3, "DOR"], [17.44, 22.06, "DOR"], [22.2, 26.34, "VIRADA"],
+              [26.38, 29.88, "VIRADA"], [29.92, 34.1, "VIRADA"], [34.16, 38.18, "RESULTADO"],
+              [38.2, 41.92, "CTA"], [41.98, 45.38, "CTA"]],
+  "paleta": "cafe",
+  "layout": {"topo_cabeca": 260, "leg_y": 1180},
+  "gancho": {
+    "titulos": [
+      {"linhas": ["QUANTO", "TEMPO"], "fonte": "serifa", "anim": "letras", "em": ["quanto", 0]},
+      {"linhas": ["UM ARQUITETO", "PERDE"], "fonte": "sans", "anim": "mascara", "em": ["arquiteto", 0]},
+      {"linhas": ["A MESMA", "INFORMAÇÃO"], "fonte": "sans", "anim": "rola", "em": ["mesma", 0]},
+      {"linhas": ["várias vezes?"], "fonte": "italico", "anim": "seco", "em": ["várias", 0],
+       "destaque": ["vezes?"], "destaque_em": ["vezes", 0]}
+    ]
+  },
+  "apps": [
+    {"icones": [{"arquivo": "meet", "nome": "Meet", "em": ["reunião", 1]}]},
+    {"icones": [{"arquivo": "whatsapp", "nome": "WhatsApp", "em": ["conversas", 6]},
+                {"arquivo": "drive", "nome": "Drive", "em": ["arquivos", 6]},
+                {"arquivo": "notas", "nome": "Notas", "em": ["anotações", 6]}],
+     "sai": {"em": ["espalhadas", 6], "modo": "cai"}},
+    {"icones": [{"arquivo": "claude", "nome": "Claude", "em": ["inteligência", 8]}]}
+  ],
+  "titulos": [
+    {"linhas": ["DO ZERO"], "fonte": "serifa", "anim": "letras", "em": ["cada", 5]},
+    {"linhas": ["SIMPLES,", "rápido e organizado."], "fonte": ["sans", "italico"], "faixa": true,
+     "anim": "mascara", "em": ["simples", 10], "y": 330}
+  ],
+  "palco": [
+    {"tipo": "video", "arquivo": "../broll/gravacao-de-tela.mov", "inicio": 5.8, "velocidade": 2, "recorte": [1900, 160, 1420, 1000],
+     "selo": "2x", "rotulo": "o *briefing* que a IA montou", "em": ["briefing", 2], "ate": ["criar", 3]},
+    {"tipo": "cartoes", "itens": [
+      {"titulo": "Proposta comercial", "sub": "PDF", "em": ["proposta", 3]},
+      {"titulo": "Programa de necessidades", "sub": "DOCX", "em": ["programa", 3]},
+      {"titulo": "Documentos técnicos", "sub": "PDF", "em": ["documentos", 4]}]},
+    {"tipo": "comando", "texto": "Gera o briefing desta reunião", "em": ["gerar", 7], "feito": "Briefing pronto.",
+     "ate": ["usar", 8]},
+    {"tipo": "cartoes", "itens": [
+      {"titulo": "Proposta comercial", "sub": "PDF", "em": ["proposta", 9], "ok_em": ["comercial", 9, 0.1]},
+      {"titulo": "Contrato", "sub": "DOCX", "em": ["contrato", 9], "ok_em": ["contrato", 9, 0.4]},
+      {"titulo": "Documentos técnicos", "sub": "PDF", "em": ["documentos", 9], "ok_em": ["técnicos", 9, 0.2]}]},
+    {"tipo": "link", "titulo": "Meu Produto", "sub": "O que o seu produto entrega, em uma linha",
+     "monograma": "MP", "botao": "Saiba mais", "em": ["Clique", 12], "toque_em": ["saiba", 12]}
+  ],
+  "borrao": [5, 7, 10]
+}

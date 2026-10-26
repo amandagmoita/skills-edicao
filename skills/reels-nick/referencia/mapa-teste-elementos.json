@@ -1,0 +1,16 @@
+{
+  "fonte": "meu-video.mov",
+  "destaques": ["mesma"],
+  "cenas": [
+    {"layout": "dividida", "em": 0, "tipo": "contador", "valor": 600, "prefixo": "+", "rotulo": "modelos de IA", "em_numero": ["tempo", 0], "dur": 1.0},
+    {"layout": "dividida", "em": ["cliente", 1], "tipo": "grafico", "nome": "Estrelas no GitHub", "pontos": [0, 1, 3, 4, 9, 17, 30, 52, 61], "eixo_x": ["jan", "abr", "jul", "out"], "valor_final": "61 mil"},
+    {"layout": "cheia", "em": ["mas", 2], "tipo": "janela", "arquivo": "caderno_chat", "url": "claude.ai",
+     "cliques": [{"ponto": [480, 60], "caixa": [388, 38, 196, 46], "em": ["passar", 2]}, {"ponto": [720, 60], "caixa": [655, 38, 150, 46], "em": ["equipe", 2]}],
+     "contador": {"de": 0, "valor": 33, "rotulo": "páginas", "em": ["briefing", 2]}},
+    {"layout": "cheia", "em": ["criar", 3], "tipo": "comparacao", "rotulos": ["antes", "com o Claude"], "fundo": "desfocado",
+     "itens": [{"arquivo": "briefing_doc"}, {"arquivo": "../gravacao-tela-2.mov", "inicio": 4, "recorte": [1880, 120, 1900, 1300]}]},
+    {"layout": "cheia", "em": ["e", 4], "tipo": "orbita", "centro": "claude", "titulo": ["4 ferramentas", "que eu uso"],
+     "itens": [{"arquivo": "whatsapp"}, {"arquivo": "arquivos"}, {"arquivo": "notas"}, {"arquivo": "claude_logo"}]},
+    {"layout": "dividida", "em": ["você", 6], "tipo": "foto", "cartao": true, "arquivo": "reuniao.png"}
+  ]
+}

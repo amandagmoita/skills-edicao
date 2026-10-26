@@ -1,0 +1,526 @@
+{
+ "fonte": "meu-video.mov",
+ "tomadas": [
+  [
+   0.1,
+   4.16,
+   "GANCHO"
+  ],
+  [
+   4.2,
+   6.2,
+   "DOR"
+  ],
+  [
+   6.24,
+   9.72,
+   "DOR"
+  ],
+  [
+   9.78,
+   12.84,
+   "DOR"
+  ],
+  [
+   12.92,
+   15.16,
+   "DOR"
+  ],
+  [
+   15.2,
+   17.3,
+   "DOR"
+  ],
+  [
+   17.44,
+   22.06,
+   "DOR"
+  ],
+  [
+   22.2,
+   26.34,
+   "VIRADA"
+  ],
+  [
+   26.38,
+   29.88,
+   "VIRADA"
+  ],
+  [
+   29.92,
+   34.1,
+   "VIRADA"
+  ],
+  [
+   34.16,
+   38.18,
+   "RESULTADO"
+  ],
+  [
+   38.2,
+   41.92,
+   "CTA"
+  ],
+  [
+   41.98,
+   45.38,
+   "CTA"
+  ]
+ ],
+ "destaque": "#FFC700",
+ "zoom_tomadas": [
+  1.0,
+  1.08
+ ],
+ "degraus": [
+  {
+   "em": [
+    "mas",
+    7
+   ],
+   "z": 1.22
+  },
+  {
+   "em": [
+    "gerar",
+    7
+   ],
+   "z": 1.0
+  },
+  {
+   "em": [
+    "espalhadas",
+    6
+   ],
+   "z": 1.14
+  },
+  {
+   "em": [
+    "economizar",
+    11
+   ],
+   "z": 1.14
+  }
+ ],
+ "amarelas": [
+  [
+   "tudo",
+   1
+  ],
+  [
+   "equipe",
+   2
+  ],
+  [
+   "organizado,",
+   2
+  ],
+  [
+   "proposta",
+   3
+  ],
+  [
+   "necessidades",
+   3
+  ],
+  [
+   "técnicos",
+   4
+  ],
+  [
+   "zero,",
+   5
+  ],
+  [
+   "perde",
+   6
+  ],
+  [
+   "espalhadas.",
+   6
+  ],
+  [
+   "única",
+   7
+  ],
+  [
+   "inteligência",
+   8
+  ],
+  [
+   "transformar",
+   8
+  ],
+  [
+   "contrato",
+   9
+  ],
+  [
+   "simples,",
+   10
+  ],
+  [
+   "organizado.",
+   10
+  ],
+  [
+   "economizar",
+   11
+  ],
+  [
+   "projetos?",
+   11
+  ],
+  [
+   "saiba",
+   12
+  ]
+ ],
+ "gigantes": [
+  [
+   "mas",
+   7
+  ]
+ ],
+ "apartes": [
+  {
+   "em": [
+    "e",
+    4
+   ]
+  }
+ ],
+ "titulos": [
+  {
+   "em": [
+    "sabe",
+    0
+   ],
+   "y": 0.555,
+   "linhas": [
+    {
+     "txt": "sabe quanto tempo",
+     "y": 0.105,
+     "atras": true
+    },
+    "um empreendedor *perde*",
+    "organizando a mesma",
+    "*informação* várias vezes?"
+   ]
+  },
+  {
+   "em": [
+    "conheça",
+    12
+   ],
+   "y": 0.56,
+   "linhas": [
+    "conheça o",
+    "*Meu Produto*"
+   ]
+  }
+ ],
+ "elementos": [
+  {
+   "tipo": "vidro",
+   "em": [
+    "cliente",
+    1
+   ],
+   "arquivo": "reuniao.png",
+   "pos": [
+    0.84,
+    0.33
+   ],
+   "larg": 330,
+   "alt": 470,
+   "incl": 3
+  },
+  {
+   "tipo": "mao",
+   "em": [
+    "depois",
+    2
+   ],
+   "ate": [
+    "num",
+    2
+   ],
+   "texto": "tudo de\nnovo...",
+   "pos": [
+    0.03,
+    0.21
+   ],
+   "alvo": [
+    0.26,
+    0.37
+   ],
+   "curva": 1
+  },
+  {
+   "tipo": "finder",
+   "em": [
+    "briefing",
+    2
+   ],
+   "ate": [
+    "proposta",
+    3,
+    -0.12
+   ],
+   "arrasta": [
+    "briefing",
+    2,
+    0.3
+   ],
+   "arquivos": [
+    "conversas.png",
+    "anotacoes.png",
+    "reuniao.png"
+   ],
+   "nome": "Briefing",
+   "pos": [
+    0.5,
+    0.705
+   ]
+  },
+  {
+   "tipo": "cards",
+   "em": [
+    "proposta",
+    3
+   ],
+   "itens": [
+    {
+     "arquivo": "proposta.png",
+     "em": [
+      "proposta",
+      3
+     ],
+     "pos": [
+      0.15,
+      0.37
+     ],
+     "larg": 280,
+     "rotulo": "Proposta"
+    },
+    {
+     "arquivo": "prancheta.png",
+     "em": [
+      "programa",
+      3
+     ],
+     "pos": [
+      0.86,
+      0.39
+     ],
+     "larg": 280,
+     "rotulo": "Programa",
+     "incl": 5
+    }
+   ]
+  },
+  {
+   "tipo": "tira",
+   "em": [
+    "documentos",
+    4
+   ],
+   "arquivos": [
+    "doc_sala.png",
+    "doc_varanda.png",
+    "doc_caderno.png",
+    "doc_briefing.png",
+    "briefing_doc.png"
+   ],
+   "y": 0.13,
+   "alt": 300
+  },
+  {
+   "tipo": "mao",
+   "em": [
+    "cada",
+    5
+   ],
+   "texto": "toda.\nsanta.\nvez.",
+   "pos": [
+    0.05,
+    0.21
+   ],
+   "alvo": [
+    0.25,
+    0.4
+   ],
+   "curva": -1
+  },
+  {
+   "tipo": "explosao",
+   "em": [
+    "conversas,",
+    6
+   ],
+   "arquivos": [
+    "conversas.png",
+    "arquivos.png",
+    "anotacoes.png",
+    "whatsapp.png",
+    "notas.png",
+    "doc_caderno.png",
+    "reuniao.png",
+    "bloco.png",
+    "doc_sala.png",
+    "caderno_chat.png"
+   ],
+   "n": 16
+  },
+  {
+   "tipo": "card_escuro",
+   "em": [
+    "gerar",
+    7
+   ],
+   "lado": "dir",
+   "y": 0.34,
+   "larg": 360,
+   "alt": 540,
+   "linhas": [
+    {
+     "txt": "gerar o",
+     "em": [
+      "gerar",
+      7
+     ]
+    },
+    {
+     "txt": "*briefing*",
+     "em": [
+      "briefing",
+      7
+     ]
+    },
+    {
+     "txt": "uma única vez.",
+     "em": [
+      "uma",
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "editor",
+   "em": [
+    "transformar",
+    8
+   ],
+   "texto": "essas informações",
+   "seleciona": [
+    "essas",
+    8
+   ],
+   "troca": [
+    "informações",
+    8,
+    0.3
+   ],
+   "pos": [
+    0.5,
+    0.715
+   ],
+   "tam": 96
+  },
+  {
+   "tipo": "card_doc",
+   "em": [
+    "proposta",
+    9
+   ],
+   "lado": "esq",
+   "y": 0.34,
+   "larg": 320,
+   "alt": 480,
+   "rotulo": "da reunião",
+   "pilula": "gerado com IA",
+   "itens": [
+    {
+     "titulo": "Proposta",
+     "arquivo": "proposta.png",
+     "em": [
+      "proposta",
+      9
+     ]
+    },
+    {
+     "titulo": "Contrato",
+     "arquivo": "contrato.png",
+     "em": [
+      "contrato",
+      9
+     ]
+    },
+    {
+     "titulo": "Docs técnicos",
+     "arquivo": "doc_sala.png",
+     "em": [
+      "documentos",
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "timeline",
+   "em": [
+    "processo",
+    10
+   ],
+   "titulo": "projeto · cliente",
+   "rotulos": [
+    {
+     "texto": "BRIEFING",
+     "em": [
+      "simples,",
+      10
+     ],
+     "cor": "#E8784A"
+    },
+    {
+     "texto": "PROPOSTA",
+     "em": [
+      "rápido",
+      10
+     ],
+     "cor": "#5B8DEF"
+    },
+    {
+     "texto": "CONTRATO",
+     "em": [
+      "organizado.",
+      10
+     ],
+     "cor": "#6FAF7B"
+    }
+   ]
+  },
+  {
+   "tipo": "botao",
+   "em": [
+    "clique",
+    12
+   ],
+   "ate": [
+    "conheça",
+    12,
+    -0.05
+   ],
+   "toque": [
+    "saiba",
+    12
+   ],
+   "pos": [
+    0.5,
+    0.72
+   ]
+  }
+ ]
+}

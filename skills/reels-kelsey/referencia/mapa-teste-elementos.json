@@ -1,0 +1,18 @@
+{
+  "fonte": "meu-video.mov",
+  "tomadas": [[0.1, 4.16, "GANCHO"], [4.2, 6.2, "DOR"], [6.24, 9.72, "DOR"], [9.78, 12.84, "DOR"], [12.92, 15.16, "DOR"], [15.2, 17.3, "DOR"], [17.44, 22.06, "DOR"], [22.2, 26.34, "VIRADA"], [26.38, 29.88, "VIRADA"], [29.92, 34.1, "VIRADA"], [34.16, 38.18, "RESULTADO"], [38.2, 41.92, "CTA"], [41.98, 45.38, "CTA"]],
+  "elementos": [
+    {"tipo": "numero", "em": ["cliente", 1], "valor": "33", "de": 0},
+    {"tipo": "arco", "em": ["passar", 2], "em_para": ["briefing", 2], "de": "6 mil", "para": "260 mil"},
+    {"tipo": "barra", "em": ["proposta", 3], "valor": 403, "de": 0, "rotulo": "mais pedidos"},
+    {"tipo": "baloes", "em": ["quando", 5], "texto": "Alguma novidade?", "rotulo": "Cliente",
+     "itens": [{"em": ["quando", 5]}, {"em": ["cada", 5]}, {"em": ["etapa", 5]}, {"em": ["zero", 5]}]},
+    {"tipo": "icones", "em": ["conversas", 6], "itens": [
+      {"arquivo": "whatsapp.png", "em": ["conversas", 6]}, {"arquivo": "claude.png", "em": ["arquivos", 6]},
+      {"arquivo": "notas.png", "em": ["anotações", 6]}]},
+    {"tipo": "cronometro", "em": ["mas", 7], "de": 30},
+    {"tipo": "cards", "em": ["inteligência", 8], "arquivos": ["doc_briefing.png", "doc_caderno.png", "doc_sala.png", "doc_varanda.png", "reuniao.png"]},
+    {"tipo": "objeto", "em": ["proposta", 9], "arquivo": "claude_logo.png", "tam": 220, "pos": [0.8, 0.28], "card": true},
+    {"tipo": "numero", "em": ["processo", 10], "valor": "74%", "de": 0, "atras": true}
+  ]
+}

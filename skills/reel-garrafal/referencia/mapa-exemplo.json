@@ -1,0 +1,748 @@
+{
+ "fonte": "meu-video.mov",
+ "blocos": [
+  {
+   "tipo": "abertura",
+   "em": 0,
+   "ate": [
+    "organizando",
+    0,
+    -0.08
+   ],
+   "estouro": true,
+   "clipes": [
+    {
+     "arquivo": "ampulheta.png",
+     "quadros": 8,
+     "foco": [
+      0.5,
+      0.45
+     ],
+     "z0": 1.25,
+     "z1": 1.35
+    },
+    {
+     "arquivo": "arquivos.png",
+     "quadros": 3,
+     "foco": [
+      0.45,
+      0.4
+     ]
+    },
+    {
+     "arquivo": "conversas.png",
+     "quadros": 3,
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "arquivo": "anotacoes.png",
+     "quadros": 4,
+     "foco": [
+      0.4,
+      0.45
+     ]
+    },
+    {
+     "arquivo": "copiadora.png",
+     "quadros": 5,
+     "foco": [
+      0.5,
+      0.6
+     ]
+    },
+    {
+     "arquivo": "gancho_meme.png",
+     "foco": [
+      0.48,
+      0.5
+     ],
+     "z0": 1.0,
+     "z1": 1.08
+    }
+   ]
+  },
+  {
+   "tipo": "rosto",
+   "em": [
+    "organizando",
+    0,
+    -0.08
+   ]
+  },
+  {
+   "tipo": "respiro",
+   "em": [
+    "inicio",
+    1
+   ],
+   "cor": "branco"
+  },
+  {
+   "tipo": "macro",
+   "em": [
+    "na",
+    1,
+    -0.05
+   ],
+   "clipes": [
+    {
+     "arquivo": "reuniao.png",
+     "foco": [
+      0.5,
+      0.45
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "outros",
+   "em": [
+    "inicio",
+    2
+   ],
+   "ate": [
+    "num",
+    2,
+    -0.05
+   ]
+  },
+  {
+   "tipo": "rosto",
+   "em": [
+    "num",
+    2,
+    -0.05
+   ]
+  },
+  {
+   "tipo": "diagrama",
+   "em": [
+    "inicio",
+    3
+   ],
+   "itens": [
+    {
+     "texto": "briefing",
+     "cor": "#0F258D",
+     "larg": 1.3
+    },
+    {
+     "texto": "proposta",
+     "em": [
+      "proposta",
+      3
+     ],
+     "cor": "#644F3B",
+     "larg": 1.3
+    },
+    {
+     "texto": "programa",
+     "em": [
+      "programa",
+      3
+     ],
+     "cor": "#7B3006",
+     "larg": 1.3
+    },
+    {
+     "texto": "docs",
+     "em": [
+      "necessidades",
+      3,
+      0.25
+     ],
+     "cor": "#360BA1",
+     "larg": 1.0
+    }
+   ]
+  },
+  {
+   "tipo": "dividida",
+   "em": [
+    "inicio",
+    4
+   ],
+   "fonte": "gravacao-de-tela-2.mov",
+   "t_fonte": 11.0,
+   "caixa": [
+    1640,
+    360,
+    1600
+   ],
+   "zooms": [
+    {
+     "em": [
+      "técnicos",
+      4
+     ],
+     "caixa": [
+      1740,
+      760,
+      1250
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "rosto",
+   "em": [
+    "inicio",
+    5
+   ]
+  },
+  {
+   "tipo": "rosto",
+   "em": [
+    "inicio",
+    6
+   ],
+   "z": 1.12
+  },
+  {
+   "tipo": "macro",
+   "em": [
+    "em",
+    6,
+    -0.05
+   ],
+   "estouro": true,
+   "clipes": [
+    {
+     "arquivo": "conversas.png",
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "arquivo": "arquivos.png",
+     "em": [
+      "arquivos",
+      6
+     ],
+     "foco": [
+      0.5,
+      0.45
+     ]
+    },
+    {
+     "arquivo": "anotacoes.png",
+     "em": [
+      "anotações",
+      6
+     ],
+     "foco": [
+      0.45,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "rosto",
+   "em": [
+    "inicio",
+    7
+   ]
+  },
+  {
+   "tipo": "tela",
+   "em": [
+    "inicio",
+    8
+   ],
+   "fonte": "gravacao-de-tela.mov",
+   "t_fonte": 4.6,
+   "texto_y": 0.66,
+   "caixa": [
+    560,
+    150,
+    1060
+   ],
+   "zooms": [
+    {
+     "em": [
+      "transformar",
+      8
+     ],
+     "caixa": [
+      1930,
+      150,
+      1060
+     ]
+    },
+    {
+     "em": [
+      "informações",
+      8
+     ],
+     "caixa": [
+      1960,
+      420,
+      820
+     ]
+    }
+   ],
+   "contornos": [
+    {
+     "em": [
+      "informações",
+      8,
+      0.15
+     ],
+     "caixa": [
+      1975,
+      505,
+      1215,
+      140
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "dividida",
+   "em": [
+    "inicio",
+    9
+   ],
+   "fonte": "gravacao-de-tela-2.mov",
+   "t_fonte": 20.5,
+   "caixa": [
+    1640,
+    500,
+    1600
+   ],
+   "zooms": [
+    {
+     "em": [
+      "contrato",
+      9
+     ],
+     "caixa": [
+      1700,
+      700,
+      1300
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "rosto",
+   "em": [
+    "inicio",
+    10
+   ]
+  },
+  {
+   "tipo": "retrospectiva",
+   "em": [
+    "inicio",
+    11
+   ],
+   "ate": [
+    "pra",
+    11,
+    -0.05
+   ],
+   "arquivos": [
+    "doc_briefing.png",
+    "doc_caderno.png",
+    "doc_sala.png",
+    "doc_varanda.png",
+    "briefing_doc.png"
+   ],
+   "quadros": [
+    8,
+    8,
+    8,
+    8,
+    30
+   ]
+  },
+  {
+   "tipo": "rosto",
+   "em": [
+    "pra",
+    11,
+    -0.05
+   ]
+  }
+ ],
+ "palavras": [
+  {
+   "em": [
+    "um",
+    0
+   ],
+   "ate": [
+    "perde",
+    0
+   ],
+   "voz": "italico"
+  },
+  {
+   "em": [
+    "informação",
+    0
+   ],
+   "voz": "destaque"
+  },
+  {
+   "em": [
+    "várias",
+    0
+   ],
+   "ate": [
+    "vezes",
+    0
+   ],
+   "voz": "italico"
+  },
+  {
+   "em": [
+    "na",
+    1
+   ],
+   "ate": [
+    "reunião",
+    1
+   ],
+   "voz": "garrafal"
+  },
+  {
+   "em": [
+    "passar",
+    2
+   ],
+   "voz": "destaque"
+  },
+  {
+   "em": [
+    "isso",
+    2
+   ],
+   "ate": [
+    "tudo",
+    2
+   ],
+   "voz": "destaque"
+  },
+  {
+   "em": [
+    "equipe",
+    2
+   ],
+   "voz": "destaque"
+  },
+  {
+   "em": [
+    "briefing",
+    2
+   ],
+   "voz": "destaque"
+  },
+  {
+   "em": [
+    "organizado",
+    2
+   ],
+   "voz": "italico"
+  },
+  {
+   "em": [
+    "proposta",
+    3
+   ],
+   "ate": [
+    "comercial",
+    3
+   ]
+  },
+  {
+   "em": [
+    "documentos",
+    4
+   ],
+   "ate": [
+    "técnicos",
+    4
+   ],
+   "voz": "destaque"
+  },
+  {
+   "em": [
+    "cada",
+    5
+   ],
+   "ate": [
+    "etapa",
+    5
+   ],
+   "voz": "destaque"
+  },
+  {
+   "em": [
+    "do",
+    5
+   ],
+   "ate": [
+    "zero",
+    5
+   ],
+   "voz": "italico"
+  },
+  {
+   "em": [
+    "perde",
+    6
+   ],
+   "ate": [
+    "tempo",
+    6
+   ],
+   "voz": "destaque"
+  },
+  {
+   "em": [
+    "conversas",
+    6
+   ],
+   "voz": "garrafal"
+  },
+  {
+   "em": [
+    "arquivos",
+    6
+   ],
+   "voz": "garrafal"
+  },
+  {
+   "em": [
+    "e",
+    6
+   ],
+   "ate": [
+    "anotações",
+    6
+   ],
+   "texto": "anotações",
+   "voz": "garrafal"
+  },
+  {
+   "em": [
+    "espalhadas",
+    6
+   ],
+   "voz": "italico"
+  },
+  {
+   "em": [
+    "gerar",
+    7
+   ],
+   "ate": [
+    "briefing",
+    7
+   ],
+   "voz": "destaque"
+  },
+  {
+   "em": [
+    "uma",
+    7
+   ],
+   "ate": [
+    "vez",
+    7
+   ],
+   "voz": "italico"
+  },
+  {
+   "em": [
+    "inteligência",
+    8
+   ],
+   "ate": [
+    "artificial",
+    8
+   ],
+   "voz": "destaque"
+  },
+  {
+   "em": [
+    "transformar",
+    8
+   ],
+   "voz": "destaque"
+  },
+  {
+   "em": [
+    "proposta",
+    9
+   ],
+   "ate": [
+    "comercial",
+    9
+   ],
+   "voz": "destaque"
+  },
+  {
+   "em": [
+    "contrato",
+    9
+   ],
+   "voz": "destaque"
+  },
+  {
+   "em": [
+    "documentos",
+    9
+   ],
+   "ate": [
+    "técnicos",
+    9
+   ],
+   "voz": "destaque"
+  },
+  {
+   "em": [
+    "muito",
+    10
+   ],
+   "voz": "destaque"
+  },
+  {
+   "em": [
+    "mais",
+    10
+   ],
+   "ate": [
+    "simples",
+    10
+   ],
+   "voz": "destaque"
+  },
+  {
+   "em": [
+    "rápido",
+    10
+   ],
+   "voz": "italico"
+  },
+  {
+   "em": [
+    "e",
+    10
+   ],
+   "ate": [
+    "organizado",
+    10
+   ],
+   "voz": "italico"
+  },
+  {
+   "em": [
+    "inteligência",
+    11
+   ],
+   "ate": [
+    "artificial",
+    11
+   ]
+  },
+  {
+   "em": [
+    "economizar",
+    11
+   ],
+   "ate": [
+    "tempo",
+    11
+   ],
+   "voz": "destaque"
+  },
+  {
+   "em": [
+    "nos",
+    11
+   ],
+   "ate": [
+    "projetos",
+    11
+   ],
+   "voz": "italico"
+  },
+  {
+   "em": [
+    "link",
+    12
+   ],
+   "voz": "destaque"
+  },
+  {
+   "em": [
+    "saiba",
+    12
+   ],
+   "ate": [
+    "mais",
+    12
+   ],
+   "voz": "destaque"
+  },
+  {
+   "em": [
+    "arquiteto",
+    12
+   ],
+   "ate": [
+    "10x",
+    12
+   ],
+   "voz": "italico"
+  }
+ ],
+ "conceitos": [
+  {
+   "texto": "RETRABALHO",
+   "em": [
+    "a",
+    0
+   ],
+   "ate": [
+    "fim",
+    0
+   ]
+  },
+  {
+   "texto": "BRIEFING",
+   "em": [
+    "gerar",
+    7,
+    -0.1
+   ],
+   "ate": [
+    "fim",
+    7
+   ]
+  },
+  {
+   "texto": "MEU PRODUTO",
+   "em": [
+    "conheça",
+    12,
+    -0.1
+   ],
+   "ate": [
+    "fim",
+    12
+   ]
+  }
+ ],
+ "sfx": {
+  "db": -26
+ }
+}

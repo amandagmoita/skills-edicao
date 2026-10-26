@@ -1,0 +1,62 @@
+{
+  "fonte": "meu-video.mov",
+  "tomadas": [[0.1, 4.16, "GANCHO"], [4.2, 6.2, "DOR"], [6.24, 9.72, "DOR"], [9.78, 12.84, "DOR"], [12.92, 15.16, "DOR"], [15.2, 17.3, "DOR"], [17.44, 22.06, "DOR"], [22.2, 26.34, "VIRADA"], [26.38, 29.88, "VIRADA"], [29.92, 34.1, "VIRADA"], [34.16, 38.18, "RESULTADO"], [38.2, 41.92, "CTA"], [41.98, 45.38, "CTA"]],
+
+  "titulos": [
+    {"em": ["quanto", 0], "ate": ["organizando", 0], "linhas": ["Quanto *tempo*", "_um_ +empreendedor+", "perde?"]},
+    {"em": ["cada", 5], "linhas": ["_cada_ etapa", "do *zero*"]},
+    {"em": ["uma", 7], "linhas": ["_uma_ */única/*", "+vez.+"]},
+    {"em": ["mais", 10], "ate": ["quer", 11], "linhas": ["mais *simples*,", "+rápido+", "_e_ organizado."]},
+    {"em": ["meu", 12], "linhas": ["Meu *Produto*"]}
+  ],
+
+  "degraus": [
+    {"em": ["organizando", 0], "z": 1.16},
+    {"em": ["briefing", 2], "z": 1.14},
+    {"em": ["documentos", 4], "z": 1.15},
+    {"em": ["gerar", 7], "z": 1.14},
+    {"em": ["transformar", 8], "z": 1.12},
+    {"em": ["arquivos", 6], "z": 1.12},
+    {"em": ["clique", 12], "z": 1.15}
+  ],
+  "aproxima": [
+    {"em": ["várias", 0], "z": 1.34, "dur": 0.6},
+    {"em": ["espalhadas", 6], "z": 1.25, "dur": 0.5}
+  ],
+  "transicoes": [
+    {"tipo": "desfoque", "em": ["o", 1, -0.05]},
+    {"tipo": "flash", "em": ["mas", 7, -0.05]},
+    {"tipo": "desfoque", "em": ["o", 10, -0.05]}
+  ],
+
+  "elementos": [
+    {"tipo": "notificacao", "em": ["cliente", 1], "nome": "Cliente", "avatar": "cliente.png",
+     "texto": "Já te expliquei tudo na reunião!"},
+
+    {"tipo": "pilulas", "estilo": "neon", "em": ["equipe", 2], "itens": [
+      {"texto": "Equipe", "em": ["equipe", 2], "lado": "esq"},
+      {"texto": "Briefing", "em": ["briefing", 2], "lado": "dir"}]},
+
+    {"tipo": "lista", "em": ["proposta", 3], "ate": ["quando", 5], "itens": [
+      {"texto": "Proposta comercial", "em": ["proposta", 3]},
+      {"texto": "Programa de necessidades", "em": ["programa", 3]},
+      {"texto": "Documentos técnicos", "em": ["documentos", 4]}]},
+
+    {"tipo": "muro", "em": ["procurando", 6], "ate": ["mas", 7, -0.05],
+     "arquivos": ["conversas.png", "arquivos.png", "anotacoes.png", "reuniao.png", "doc_sala.png", "doc_varanda.png"]},
+
+    {"tipo": "livro", "em": ["inteligência", 8], "arquivos": ["doc_briefing.png", "doc_caderno.png"]},
+
+    {"tipo": "pilulas", "estilo": "vidro", "em": ["proposta", 9], "itens": [
+      {"texto": "Proposta", "em": ["proposta", 9]},
+      {"texto": "Contrato", "em": ["contrato", 9]},
+      {"texto": "Documentos técnicos", "em": ["documentos", 9]}]},
+
+    {"tipo": "tela", "em": ["aprender", 11], "ate": ["clique", 12, -0.1], "arquivo": "caderno_chat.png",
+     "circulos": [{"caixa": [372, 38, 330, 50], "em": ["economizar", 11]},
+                  {"caixa": [108, 106, 316, 48], "em": ["projetos", 11]}]},
+
+    {"tipo": "pilulas", "estilo": "neon", "em": ["saiba", 12], "ate": ["meu", 12], "itens": [
+      {"texto": "Saiba mais", "em": ["saiba", 12], "pos": [0.5, 0.53]}]}
+  ]
+}

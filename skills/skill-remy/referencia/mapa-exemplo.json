@@ -1,0 +1,54 @@
+{
+ "fonte": "meu-video.mov",
+ "tomadas": [[0.1, 4.16, "GANCHO"], [4.2, 6.2, "DOR"], [6.24, 9.72, "DOR"], [9.78, 12.84, "DOR"], [12.92, 15.16, "DOR"], [15.2, 17.3, "DOR"], [17.44, 22.06, "DOR"], [22.2, 26.34, "VIRADA"], [26.38, 29.88, "VIRADA"], [29.92, 34.1, "VIRADA"], [34.16, 38.18, "RESULTADO"], [38.2, 41.92, "CTA"], [41.98, 45.38, "CTA"]],
+ "imagens": [
+  {"nome": "gancho_meme", "estilo": "meme", "descricao": "an exhausted architect sitting at a desk completely buried under towering stacks of hundreds of identical printed copies of the same house floor plan, papers falling everywhere, office background"},
+  {"nome": "copiadora", "estilo": "recorte", "descricao": "a vintage beige office photocopier machine spitting out a long cascading stream of identical architectural floor plan sheets"},
+  {"nome": "reuniao", "estilo": "foto", "descricao": "a female architect explaining a printed house floor plan to a young couple sitting at a meeting table, rolls of drawings and a laptop on the table, bright modern studio"},
+  {"nome": "conversas", "estilo": "foto", "descricao": "close-up of a smartphone lying on a wooden desk showing a long messy messaging app conversation full of voice notes and photos"},
+  {"nome": "arquivos", "estilo": "foto", "descricao": "a computer monitor on a desk showing a cluttered desktop covered in dozens of folders and document files, sticky notes on the screen edge"},
+  {"nome": "anotacoes", "estilo": "foto", "descricao": "an open paper notebook on a desk filled with messy handwritten notes, arrows and quick sketches of a house plan, a pen and a coffee cup"},
+  {"nome": "ampulheta", "estilo": "recorte", "descricao": "a glossy golden hourglass with sand running through it"}
+ ],
+ "quadro": [
+  {"tipo": "imagem", "em": 0, "ate": ["organizando", 0], "arquivo": "gancho_meme"},
+  {"tipo": "imagens", "em": ["cliente", 1], "ate": ["passar", 2], "proporcao": "3:2",
+   "itens": [{"arquivo": "reuniao", "em": ["cliente", 1]}]},
+  {"tipo": "lista", "em": ["passar", 2], "titulo": "você refaz", "nota": "tudo de novo?", "ate": ["quando", 5],
+   "itens": [{"texto": "briefing pra equipe", "em": ["equipe", 2]},
+             {"texto": "proposta comercial", "em": ["proposta", 3]},
+             {"texto": "programa de necessidades", "em": ["programa", 3]},
+             {"texto": "documentos técnicos", "em": ["documentos", 4]}]},
+  {"tipo": "cards", "em": ["você", 6], "itens": [
+     {"texto": "conversas", "arquivo": "conversas", "em": ["conversas", 6]},
+     {"texto": "arquivos", "arquivo": "arquivos", "em": ["arquivos", 6]},
+     {"texto": "anotações", "arquivo": "anotacoes", "em": ["anotações", 6]}],
+   "titulo": ["informação", "espalhada"], "titulo_em": ["procurando", 6]},
+  {"tipo": "lista", "em": ["mas", 7], "ate": ["briefing", 7], "titulo": "você refaz", "nota": "tudo de novo?",
+   "riscar": ["se", 7],
+   "itens": [{"texto": "briefing pra equipe"}, {"texto": "proposta comercial"},
+             {"texto": "programa de necessidades"}, {"texto": "documentos técnicos"}]},
+  {"tipo": "chat", "em": ["briefing", 7], "ate": ["inteligência", 8], "placeholder": "Pergunte ao Claude",
+   "itens": [{"rotulo": "conversas", "icone": "imagem", "arquivo": "conversas"},
+             {"rotulo": "arquivos", "icone": "imagem", "arquivo": "arquivos"},
+             {"rotulo": "anotações", "icone": "imagem", "arquivo": "anotacoes"}],
+   "enviar": ["única", 7]},
+  {"tipo": "video", "em": ["inteligência", 8], "arquivo": "gravacao-de-tela.mov", "inicio": 5.8,
+   "velocidade": 2, "recorte": [1860, 300, 1450, 1160]},
+  {"tipo": "mapa", "em": ["em", 9, 0], "centro": "briefing", "angulos": [-150, -30, 90], "itens": [
+     {"texto": "proposta comercial", "em": ["proposta", 9]},
+     {"texto": "contrato", "em": ["contrato", 9]},
+     {"texto": "documentos técnicos", "em": ["documentos", 9]}]}
+ ],
+ "painel": [
+  {"tipo": "pasta", "em": ["processo", 10], "rotulo": "residência-ana", "selo": "✓ PRONTO", "itens": [
+     {"arquivo": "doc_briefing", "em": ["fica", 10]}, {"arquivo": "doc_caderno", "em": ["mais", 10]},
+     {"arquivo": "doc_sala", "em": ["rápido", 10]}, {"arquivo": "doc_varanda", "em": ["e", 10]}]}
+ ],
+ "adesivo": [
+  {"arquivo": "copiadora", "em": ["organizando", 0], "largura": 0.6, "x": 0.7, "giro": -4},
+  {"arquivo": "ampulheta", "em": ["economizar", 11], "largura": 0.42, "x": 0.76, "giro": 5}
+ ],
+ "titulo": [{"texto": "MEU PRODUTO", "etiqueta": "NOVO", "em": ["conheça", 12]}],
+ "cta": {"texto": "clica em", "palavra": "SAIBA MAIS", "aspas": false, "em": ["clique", 12], "palavra_em": ["saiba", 12]}
+}

@@ -1,0 +1,480 @@
+{
+ "fonte": "meu-video.mov",
+ "tomadas": [
+  [
+   0.1,
+   4.14,
+   "GANCHO"
+  ],
+  [
+   4.24,
+   8.66,
+   "1"
+  ],
+  [
+   8.72,
+   15.66,
+   "2"
+  ],
+  [
+   15.7,
+   20.52,
+   "3"
+  ],
+  [
+   20.56,
+   26.78,
+   "4"
+  ],
+  [
+   26.84,
+   31.14,
+   "5"
+  ],
+  [
+   31.22,
+   39.44,
+   "6"
+  ],
+  [
+   39.6,
+   47.26,
+   "7"
+  ],
+  [
+   47.36,
+   54.14,
+   "8"
+  ],
+  [
+   54.2,
+   59.0,
+   "9"
+  ],
+  [
+   59.06,
+   65.7,
+   "10"
+  ]
+ ],
+ "selos": {
+  "1": "#1 Ponto de vista",
+  "2": "#2 Mostre o processo",
+  "3": "#3 Marketing é educação",
+  "4": "#4 Escute",
+  "5": "#5 Emoção e razão",
+  "6": "#6 Gancho e meio",
+  "7": "#7 Coragem de dizer",
+  "8": "#8 Função do conteúdo",
+  "9": "#9 Resolva o problema",
+  "10": "#10 Dê mais do que recebe"
+ },
+ "chave": [
+  [
+   "dez coisas",
+   0,
+   "grande"
+  ],
+  [
+   "última",
+   0
+  ],
+  [
+   "mais importante",
+   0,
+   "grande"
+  ],
+  [
+   "um",
+   1
+  ],
+  [
+   "informação",
+   1
+  ],
+  [
+   "ponto de vista",
+   1,
+   "grande"
+  ],
+  [
+   "dois",
+   2
+  ],
+  [
+   "mostrar o processo",
+   2,
+   "grande"
+  ],
+  [
+   "exemplos",
+   2
+  ],
+  [
+   "três",
+   3
+  ],
+  [
+   "educação",
+   3,
+   "grande"
+  ],
+  [
+   "problema",
+   3
+  ],
+  [
+   "solução",
+   3
+  ],
+  [
+   "quatro",
+   4
+  ],
+  [
+   "escutar",
+   4,
+   "grande"
+  ],
+  [
+   "perguntas certas",
+   4
+  ],
+  [
+   "cinco",
+   5
+  ],
+  [
+   "emoção",
+   5,
+   "grande"
+  ],
+  [
+   "razão",
+   5,
+   "grande"
+  ],
+  [
+   "seis",
+   6
+  ],
+  [
+   "curiosidade",
+   6
+  ],
+  [
+   "parar de rolar",
+   6,
+   "grande"
+  ],
+  [
+   "meio",
+   6
+  ],
+  [
+   "valor real",
+   6,
+   "grande"
+  ],
+  [
+   "sete",
+   7
+  ],
+  [
+   "coragem",
+   7
+  ],
+  [
+   "destacar",
+   7,
+   "grande"
+  ],
+  [
+   "vistos",
+   7
+  ],
+  [
+   "oito",
+   8
+  ],
+  [
+   "função",
+   8
+  ],
+  [
+   "atrair",
+   8
+  ],
+  [
+   "confiança",
+   8
+  ],
+  [
+   "vender",
+   8
+  ],
+  [
+   "nove",
+   9
+  ],
+  [
+   "ninguém",
+   9,
+   "grande"
+  ],
+  [
+   "problema delas",
+   9
+  ],
+  [
+   "dez",
+   10
+  ],
+  [
+   "dar mais",
+   10,
+   "grande"
+  ],
+  [
+   "realizado",
+   10
+  ],
+  [
+   "longo prazo",
+   10,
+   "grande"
+  ]
+ ],
+ "efeitos": [
+  {
+   "tipo": "previa",
+   "em": 0.15,
+   "n": 10,
+   "destaque_em": [
+    "última",
+    0
+   ]
+  },
+  {
+   "tipo": "parede",
+   "em": [
+    "informação",
+    1,
+    -0.1
+   ],
+   "ate": [
+    "O",
+    1,
+    -0.05
+   ],
+   "cartoes": [
+    {
+     "estilo": "manchete",
+     "texto": "O FUNIL PERFEITO EM 2026"
+    },
+    {
+     "estilo": "reel",
+     "texto": "5 gatilhos que vendem todo dia"
+    },
+    {
+     "estilo": "post",
+     "texto": "Ninguém te conta isso sobre vender pelo Instagram"
+    },
+    {
+     "estilo": "reel",
+     "texto": "Como viralizar com 1 gancho"
+    },
+    {
+     "estilo": "manchete",
+     "texto": "MARKETING DIGITAL DO ZERO"
+    },
+    {
+     "estilo": "post",
+     "texto": "O roteiro que dobrou minhas vendas"
+    }
+   ]
+  },
+  {
+   "tipo": "orbita",
+   "em": [
+    "exemplos",
+    2,
+    -0.1
+   ],
+   "videos": [
+    {
+     "arquivo": "../reel-anterior-1/final.mp4",
+     "inicio": 2.0
+    },
+    {
+     "arquivo": "../reel-anterior-2/final.mp4",
+     "inicio": 4.0
+    },
+    {
+     "arquivo": "../reel-anterior-3/final.mp4",
+     "inicio": 22.0
+    },
+    {
+     "arquivo": "../reel-anterior-4/final.mp4",
+     "inicio": 10.0
+    },
+    {
+     "arquivo": "../reel-anterior-1/final.mp4",
+     "inicio": 20.0
+    },
+    {
+     "arquivo": "../reel-anterior-2/final.mp4",
+     "inicio": 30.0
+    }
+   ]
+  },
+  {
+   "tipo": "holofote",
+   "em": [
+    "escutar",
+    4
+   ],
+   "ate": [
+    "cliente",
+    4,
+    0.25
+   ]
+  },
+  {
+   "tipo": "congela",
+   "em": [
+    "compram",
+    5
+   ],
+   "ate": [
+    "pra",
+    5,
+    -0.05
+   ],
+   "rotulos": [
+    {
+     "texto": "emoção",
+     "em": [
+      "emoção",
+      5
+     ],
+     "alvo": "peito"
+    },
+    {
+     "texto": "razão",
+     "em": [
+      "razão",
+      5
+     ],
+     "alvo": "cabeca"
+    }
+   ]
+  },
+  {
+   "tipo": "zoom",
+   "passos": [
+    [
+     [
+      "gancho",
+      6
+     ],
+     1.15,
+     "suave"
+    ],
+    [
+     [
+      "curiosidade",
+      6
+     ],
+     1.32,
+     "seco"
+    ],
+    [
+     [
+      "parar",
+      6
+     ],
+     1.5,
+     "seco"
+    ]
+   ],
+   "volta": [
+    "meio",
+    6,
+    -0.2
+   ]
+  },
+  {
+   "tipo": "antes_depois",
+   "em": [
+    "mas",
+    7
+   ],
+   "barra": [
+    "destacar",
+    7,
+    -0.1
+   ],
+   "palavra": "destaque"
+  },
+  {
+   "tipo": "checklist",
+   "em": [
+    "função",
+    8
+   ],
+   "titulo": "Função de cada conteúdo",
+   "itens": [
+    {
+     "texto": "Atrair gente nova",
+     "destaque": "Atrair",
+     "em": [
+      "atrair",
+      8,
+      -0.1
+     ],
+     "ok": [
+      "nova",
+      8
+     ]
+    },
+    {
+     "texto": "Gerar confiança",
+     "destaque": "confiança",
+     "em": [
+      "confiança",
+      8,
+      -0.1
+     ],
+     "ok": [
+      "relacionamento",
+      8
+     ]
+    },
+    {
+     "texto": "Ajudar a vender",
+     "destaque": "vender",
+     "em": [
+      "outros#2",
+      8,
+      -0.1
+     ],
+     "ok": [
+      "ajudam",
+      8,
+      0.12
+     ]
+    }
+   ]
+  }
+ ],
+ "cta": {
+  "em": [
+   "clientes",
+   10
+  ],
+  "palavra": "LISTA",
+  "resposta": "Te mandei o link",
+  "link": "10 lições de marketing"
+ }
+}

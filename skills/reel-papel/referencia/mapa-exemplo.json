@@ -1,0 +1,86 @@
+{
+  "fonte": "meu-video.mov",
+  "tomadas": [[0.1, 4.14, "GANCHO"], [4.24, 8.66, "1"], [8.72, 15.66, "2"], [15.7, 20.52, "3"], [20.56, 26.78, "4"],
+              [26.84, 31.14, "5"], [31.22, 39.44, "6"], [39.6, 47.26, "7"], [47.36, 54.14, "8"], [54.2, 59.0, "9"],
+              [59.06, 65.7, "10"]],
+  "paleta": "oliva",
+  "abertura": true,
+  "elementos": [
+    {"tipo": "titulo", "linhas": ["DEZ COISAS"], "em": ["dez", 0], "ate": ["coisas", 0], "antecipa": 0.3},
+    {"tipo": "grade", "celulas": 10, "colunas": 5, "em": ["que", 0], "ate": ["vendas", 0]},
+    {"tipo": "titulo", "fonte": "serifa", "linhas": ["a última é a", "mais importante."],
+     "destaque": ["mais", "importante."], "destaque_em": ["mais", 0], "em": ["última", 0]},
+
+    {"tipo": "tiquete", "rotulo": "LIÇÃO", "para": "DE 10", "texto": "Ponto de vista vence informação",
+     "em": ["um", 1], "ate": ["encontram", 1]},
+    {"tipo": "feed", "em": ["informação", 1], "ate": ["lugar", 1], "itens": [
+      {"arquivo": "../reel-antigo-1/final.mp4", "inicio": 3},
+      {"arquivo": "../reel-antigo-2/final.mp4", "inicio": 2},
+      {"arquivo": "../reel-antigo-3/final.mp4", "inicio": 4},
+      {"arquivo": "../reel-antigo-1/final.mp4", "inicio": 14},
+      {"arquivo": "../reel-antigo-2/final.mp4", "inicio": 11}]},
+    {"tipo": "caneta", "palavra": "você", "em": ["alguém", 1]},
+
+    {"tipo": "tiquete", "rotulo": "LIÇÃO", "para": "DE 10", "texto": "Mostra o processo",
+     "em": ["dois", 2], "ate": ["funciona", 2]},
+    {"tipo": "filme", "em": ["mostrar", 2], "ate": ["pessoa", 2], "marcas": [
+      {"tipo": "circulo", "quadro": 2, "texto": "processo", "em": ["processo", 2]},
+      {"tipo": "circulo", "quadro": 9, "texto": "exemplo", "em": ["exemplos", 2]}]},
+    {"tipo": "celular", "em": ["visualizar", 2]},
+
+    {"tipo": "tiquete", "rotulo": "LIÇÃO", "para": "DE 10", "texto": "Marketing é educação",
+     "em": ["três", 3], "ate": ["educação", 3]},
+    {"tipo": "regua", "valores": ["PROBLEMA", "ENTENDE", "CONFIA", "SOLUÇÃO"], "em": ["entender", 3]},
+
+    {"tipo": "tiquete", "rotulo": "LIÇÃO", "para": "DE 10", "texto": "Vender é escutar",
+     "em": ["quatro", 4], "ate": ["vender", 4]},
+    {"tipo": "titulo", "linhas": ["ESCUTAR"], "anim": "letras", "em": ["escutar", 4], "ate": ["costuma", 4]},
+    {"tipo": "chuva", "em": ["costuma", 4],
+     "teclas": ["por quê?", "como?", "quando?", "pra quem?", "quanto?", "e se?", "o quê?", "onde?", "desde quando?"]},
+
+    {"tipo": "tiquete", "rotulo": "LIÇÃO", "para": "DE 10", "texto": "Emoção compra",
+     "em": ["cinco", 5], "ate": ["compram", 5]},
+    {"tipo": "regua", "valores": ["5600K", "4800K", "4000K", "3200K"], "efeito": "quente",
+     "em": ["emoção", 5], "ate": ["usam", 5]},
+    {"tipo": "cor", "modo": "pb", "em": ["razão", 5]},
+
+    {"tipo": "tiquete", "rotulo": "LIÇÃO", "para": "DE 10", "texto": "Gancho gera curiosidade",
+     "em": ["seis", 6], "ate": ["curiosidade", 6]},
+    {"tipo": "feed", "em": ["parar", 6], "ate": ["feed", 6], "itens": [
+      {"arquivo": "../reel-antigo-3/final.mp4", "inicio": 9},
+      {"arquivo": "../reel-antigo-1/final.mp4", "inicio": 24},
+      {"arquivo": "../reel-antigo-2/final.mp4", "inicio": 20},
+      {"arquivo": "../reel-antigo-1/final.mp4", "inicio": 33}]},
+    {"tipo": "letreiro", "texto": "MEIO", "em": ["meio", 6], "ate": ["conteúdo", 6]},
+    {"tipo": "mural", "quadros": [10.0, 14.2, 18.5, 22.4, 27.0, 31.6, 34.5], "nota": "o meio é o que fica", "em": ["parte", 6], "ate": ["deve", 6]},
+
+    {"tipo": "tiquete", "rotulo": "LIÇÃO", "para": "DE 10", "texto": "Fala o que eles sentem",
+     "em": ["sete", 7], "ate": ["conteúdo", 7]},
+    {"tipo": "nota", "nome": "seguidora.exemplo", "avatar": "m", "texto": "eu sentia isso e nunca tive coragem de falar",
+     "resposta_nome": "Seu Nome", "resposta_avatar": "rosto", "resposta": "Então eu falo por você.",
+     "em": ["pessoas", 7], "ate": ["dizer", 7]},
+    {"tipo": "caneta", "palavra": "vistos", "pb": false, "em": ["seguidores", 7]},
+
+    {"tipo": "tiquete", "rotulo": "LIÇÃO", "para": "DE 10", "texto": "Cada conteúdo, uma função",
+     "em": ["oito", 8], "ate": ["função", 8]},
+    {"tipo": "cards", "em": ["atrair", 8], "itens": [
+      {"arquivo": "../reel-antigo-2/final.mp4", "inicio": 2, "rotulo": "atrair", "em": ["atrair", 8]},
+      {"arquivo": "../reel-antigo-3/final.mp4", "inicio": 6, "rotulo": "confiança", "em": ["confiança", 8]},
+      {"arquivo": "../reel-antigo-1/final.mp4", "inicio": 40, "rotulo": "vender", "em": ["ajudam", 8]}]},
+
+    {"tipo": "tiquete", "rotulo": "LIÇÃO", "para": "DE 10", "texto": "O problema delas",
+     "em": ["nove", 9], "ate": ["ninguém", 9]},
+    {"tipo": "widget", "titulo": "MODO EDIÇÃO", "unidade": "itens", "em": ["importa", 9], "itens": [
+      {"rosto": true, "nome": "Você", "sai_em": ["você", 9]},
+      {"glifo": "R$", "nome": "Seu produto", "sai_em": ["produto", 9]}],
+     "final": {"texto": "o problema delas.", "em": ["pessoas", 9]}},
+
+    {"tipo": "tiquete", "rotulo": "LIÇÃO", "para": "DE 10", "texto": "Dá mais do que recebe",
+     "em": ["dez", 10], "ate": ["receber", 10]},
+    {"tipo": "revista", "cabecalho": ["Nº 10", "A EDIÇÃO DO LONGO PRAZO", "OUT 2026"], "titulo": "SUCESSO",
+     "linha": "dar mais do que", "italico": "receber.", "em": ["clientes", 10]}
+  ],
+  "transicoes": [{"tipo": "iris", "tomada": 1}, {"tipo": "borrao", "tomada": 4}, {"tipo": "persiana", "tomada": 6},
+                 {"tipo": "borrao", "tomada": 9}],
+  "legenda_modos": [{"modo": "escada", "em": ["valor", 6]}, {"modo": "grande", "em": ["vai", 7], "ate": ["destacar", 7]}]
+}

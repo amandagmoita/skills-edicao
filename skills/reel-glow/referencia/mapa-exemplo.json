@@ -1,0 +1,463 @@
+{
+  "fonte": "meu-video.mov",
+  "tomadas": [
+    [
+      8.22,
+      11.02,
+      "GANCHO"
+    ],
+    [
+      14.02,
+      17.14,
+      "GANCHO"
+    ],
+    [
+      19.16,
+      21.28,
+      "CLAUDE"
+    ],
+    [
+      41.13,
+      44.52,
+      "CLAUDE"
+    ],
+    [
+      47.2,
+      49.46,
+      "CLAUDE"
+    ],
+    [
+      57.98,
+      61.68,
+      "CLAUDE"
+    ],
+    [
+      63.94,
+      65.84,
+      "CLAUDE"
+    ],
+    [
+      67.76,
+      70.32,
+      "CLAUDE"
+    ],
+    [
+      73.4,
+      75.3,
+      "CLAUDE"
+    ],
+    [
+      81.92,
+      85.84,
+      "CLAUDE"
+    ],
+    [
+      88.6,
+      92.0,
+      "CLAUDE"
+    ],
+    [
+      94.74,
+      97.14,
+      "CLAUDE"
+    ],
+    [
+      99.72,
+      102.16,
+      "CLAUDE"
+    ],
+    [
+      104.64,
+      107.1,
+      "CLAUDE"
+    ],
+    [
+      109.98,
+      112.84,
+      "AI REEL"
+    ],
+    [
+      115.28,
+      118.48,
+      "AI REEL"
+    ],
+    [
+      121.28,
+      124.2,
+      "AI REEL"
+    ],
+    [
+      126.74,
+      128.66,
+      "AI REEL"
+    ],
+    [
+      133.46,
+      135.38,
+      "AI REEL"
+    ],
+    [
+      138.32,
+      140.86,
+      "AI REEL"
+    ],
+    [
+      145.56,
+      149.08,
+      "AI REEL"
+    ],
+    [
+      151.98,
+      154.14,
+      "AI REEL"
+    ],
+    [
+      157.0,
+      159.64,
+      "AI REEL"
+    ],
+    [
+      161.98,
+      164.16,
+      "AI REEL"
+    ],
+    [
+      167.14,
+      170.58,
+      "RECAP"
+    ],
+    [
+      173.0,
+      173.86,
+      "RECAP"
+    ],
+    [
+      180.72,
+      185.1,
+      "RECAP"
+    ],
+    [
+      188.6,
+      190.88,
+      "CTA"
+    ],
+    [
+      192.66,
+      196.36,
+      "CTA"
+    ]
+  ],
+  "gancho": {
+    "objeto": "celular"
+  },
+  "numero": {
+    "texto": "10",
+    "palavra": "10",
+    "tomada": 5
+  },
+  "sticker": {
+    "objeto": "aviao",
+    "palavra": "direct",
+    "tomada": 28
+  },
+  "chaves": [
+    [
+      "viral",
+      0,
+      1,
+      2
+    ],
+    [
+      "inteligência",
+      1,
+      2,
+      2
+    ],
+    [
+      "Claude",
+      2,
+      1,
+      3
+    ],
+    [
+      "conceito",
+      7,
+      2,
+      2
+    ],
+    [
+      "funcionando",
+      9,
+      1,
+      2
+    ],
+    [
+      "prompt",
+      13,
+      2,
+      2
+    ],
+    [
+      "AI",
+      14,
+      2,
+      3
+    ],
+    [
+      "de",
+      15,
+      2,
+      2
+    ],
+    [
+      "poucos",
+      19,
+      2,
+      2
+    ],
+    [
+      "editar",
+      22,
+      1,
+      2
+    ],
+    [
+      "passo",
+      27,
+      3,
+      2
+    ],
+    [
+      "viral",
+      28,
+      1,
+      1
+    ]
+  ],
+  "letra_a_letra": [
+    "viral",
+    28
+  ],
+  "fecho": [
+    "Testa",
+    28
+  ],
+  "telas": [
+    {
+      "tomadas": [
+        3,
+        4
+      ],
+      "empurrao": true,
+      "amarelo": [
+        [
+          "analise"
+        ],
+        [
+          "nicho",
+          "de",
+          "moda"
+        ]
+      ],
+      "cenas": [
+        {
+          "tipo": "raiox",
+          "palavras": [
+            "formatos",
+            "temas",
+            "estruturas"
+          ],
+          "rotulos": [
+            "FORMATO",
+            "TEMA",
+            "ESTRUTURA"
+          ],
+          "objeto": "lupa"
+        },
+        {
+          "tipo": "barras",
+          "dispara": "atenção",
+          "entra_objeto": "nicho",
+          "objeto": "vestido"
+        }
+      ]
+    },
+    {
+      "tomadas": [
+        24,
+        25,
+        26
+      ],
+      "empurrao": false,
+      "amarelo": [
+        [
+          "analisar"
+        ],
+        [
+          "criar",
+          "a",
+          "ideia"
+        ],
+        [
+          "vídeo",
+          "viral"
+        ]
+      ],
+      "cenas": [
+        {
+          "tipo": "fluxo",
+          "nos": [
+            {
+              "objeto": "lupa",
+              "rotulo": "ANALISAR",
+              "palavra": "analisar",
+              "tomada": 24
+            },
+            {
+              "objeto": "lampada",
+              "rotulo": "CRIAR",
+              "palavra": null,
+              "tomada": 25
+            },
+            {
+              "objeto": "claquete",
+              "rotulo": "TRANSFORMAR",
+              "palavra": "transformar",
+              "tomada": 26
+            }
+          ],
+          "curva": {
+            "palavra": "viral",
+            "tomada": 26
+          }
+        }
+      ]
+    }
+  ],
+  "brolls": [
+    {
+      "tomadas": [
+        6,
+        7
+      ],
+      "arquivo": "gravacao-tela-1.mov",
+      "inicio": 3.0,
+      "recorte": [
+        1252,
+        0,
+        1215,
+        2160
+      ]
+    },
+    {
+      "tomadas": [
+        12,
+        13
+      ],
+      "arquivo": "gravacao-tela-2.mov",
+      "inicio": 8.8,
+      "recorte": [
+        1282,
+        0,
+        1215,
+        2160
+      ]
+    },
+    {
+      "tomadas": [
+        15
+      ],
+      "arquivo": "clipe-1.mp4",
+      "inicio": 0.0,
+      "recorte": null
+    },
+    {
+      "tomadas": [
+        16
+      ],
+      "arquivo": "gravacao-tela-2.mov",
+      "inicio": 70.5,
+      "recorte": [
+        1794,
+        560,
+        900,
+        1600
+      ]
+    },
+    {
+      "tomadas": [
+        17
+      ],
+      "arquivo": "gravacao-tela-2.mov",
+      "inicio": 147.5,
+      "recorte": [
+        1028,
+        440,
+        900,
+        1600
+      ]
+    },
+    {
+      "tomadas": [
+        18
+      ],
+      "arquivo": "clipe-2.mp4",
+      "inicio": 0.0,
+      "recorte": null
+    },
+    {
+      "tomadas": [
+        22
+      ],
+      "arquivo": "gravacao-tela-3.mov",
+      "inicio": 12.5,
+      "recorte": [
+        2020,
+        340,
+        900,
+        1600
+      ]
+    }
+  ],
+  "zooms": {
+    "1": [
+      1.0,
+      1.12
+    ],
+    "9": [
+      1.13,
+      1.0
+    ],
+    "11": [
+      1.0,
+      1.12
+    ],
+    "20": [
+      1.13,
+      1.0
+    ],
+    "27": [
+      1.0,
+      1.15
+    ],
+    "28": [
+      1.0,
+      1.08
+    ]
+  },
+  "ancora_rosto": [
+    540,
+    900
+  ],
+  "objetos": {
+    "celular": "a modern smartphone tilted about 20 degrees, its screen glowing with a big white play-button triangle on a vivid gradient, glossy metal frame",
+    "lupa": "a vintage brass magnifying glass with a polished glass lens",
+    "vestido": "an elegant flowing satin evening dress hanging on a wooden clothes hanger",
+    "lampada": "a glowing incandescent light bulb with a warm golden filament",
+    "claquete": "a classic black and white film clapperboard, slightly open",
+    "aviao": "a crisp white folded paper airplane, viewed from the side, slightly angled up"
+  },
+  "corte": {
+    "limiar_voz": -33
+  }
+}
